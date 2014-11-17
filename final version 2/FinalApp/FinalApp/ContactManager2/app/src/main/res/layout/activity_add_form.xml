@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.zxa108020.contactmanager.AddForm"
+    android:background="#25c">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Add Contact"
+
+        android:textColor="#fff"
+        android:id="@+id/textView"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="First name"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstNameEditText"
+        android:background="#fff"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Last name"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:id="@+id/textView3"
+        android:layout_below="@id/firstNameEditText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastNameEditText"
+        android:background="#fff"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Phone number"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:id="@+id/textView4"
+        android:layout_below="@id/lastNameEditText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNumberEditText"
+        android:inputType="phone"
+        android:layout_below="@+id/textView4"
+        android:layout_toStartOf="@+id/textView"
+        android:background="#fff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Alternate Contact"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/textView5"
+        android:layout_below="@id/phoneNumberEditText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondPhoneEditText"
+        android:inputType="phone"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff"
+        android:layout_below="@id/textView5"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Contact"
+        android:id="@+id/saveContactButton"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_below="@+id/secondPhoneEditText"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/saveContactButton"
+        android:background="#fff"
+        />
+
+</RelativeLayout>
