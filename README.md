@@ -1,7 +1,7 @@
 final-version-3
 ===============
 To add a contact:
-1.	Fill in the “First Name” and “Last Name” text field
+1.	Fill in the “First Name” and “Last Name” text field/n
 2.	Add a phone number in the “primary phone number” field and if needed add enter a secondary number into the “secondary phone number” field 
 3.	Tap “save contact” to add the contact into the list view.
 
