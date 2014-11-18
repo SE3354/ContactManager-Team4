@@ -1,6 +1,5 @@
 final-version-3
 ===============
-
 To add a contact: 
 1. Fill in the "First Name" and "Last Name" text fields
 2. Add a phone number in the  "primary phone number" field (there is a secondary number field if needed.)
