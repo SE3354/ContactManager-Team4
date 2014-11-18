@@ -1,9 +1,9 @@
 final-version-3
 ===============
 To add a contact:
-1.	Fill in the “First Name” and “Last Name” text field/n
-2.	Add a phone number in the “primary phone number” field and if needed add enter a secondary number into the “secondary phone number” field 
-3.	Tap “save contact” to add the contact into the list view.
+1.	Fill in the “First Name” and “Last Name” text field
+2.	Add a phone number in the “primary phone number” field and if needed add enter a secondary number into the “secondary phone number” field
+3.  Tap “save contact” to add the contact into the list view.
 
 To call a contact:
 1.	Tap the contact that you wish to call, you will be brought to another screen (activity)
@@ -13,7 +13,6 @@ To call a contact:
 To SMS a contact:
 1.	Tap the contact that you wish to SMS, you will be brought to another screen
 2.	On the next screen tap the “SMS contact” button
-
 To set a contact picture
 1.	Tap the contact that you wish to set a picture for, you will be brought to another screen (activity). 
 2.	Tap “Set picture” to open the android’s camera and take the picture.
