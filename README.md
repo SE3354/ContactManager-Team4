@@ -1,6 +1,6 @@
 final-version-3
 ===============
-	To add a contact: 
+	To add a contact:
 	 1. Fill in the "First Name" and "Last Name" text fields
 	 2. Add a phone number in the  "primary phone number" field (there is a secondary number field if needed.)
 	 3. Press the  "save contact" button to add the contact into the list view
@@ -22,4 +22,5 @@ final-version-3
 	To block a contact:
 	1. Press the button of the contact that you wish to block, then you will be brought to another screen
 	2. On next screen, press the "block contact" button
+	
 	Contact manager app
