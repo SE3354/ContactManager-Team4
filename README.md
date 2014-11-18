@@ -20,6 +20,5 @@ To set a contact picture
 To block a contact:
 1.	Tap the contact that you wish to block, you will be brought to another screen
 2.	On the next screen tap the “block contact” button.
-
 ================
 Contact manager app
