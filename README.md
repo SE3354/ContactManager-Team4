@@ -1,9 +1,9 @@
 final-version-3
 ===============
-To add a contact: 
-  1. Fill in the "First Name" and "Last Name" text fields
-  2. Add a phone number in the  "primary phone number" field (there is a secondary number field if needed.)
-  3. Press the  "save contact" button to add the contact into the list view
+	To add a contact: 
+	 1. Fill in the "First Name" and "Last Name" text fields
+	 2. Add a phone number in the  "primary phone number" field (there is a secondary number field if needed.)
+	 3. Press the  "save contact" button to add the contact into the list view
 
 	To call a contact:
 	1. Press the button of the contact you wish to call, then you will be brought to another screen (activity)
